@@ -24,4 +24,16 @@
     border: none;
     background-color: transparent;
     opacity: 40%;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.card__like-btn:hover {
+    opacity: 1;
+}
+
+.card__title {
+    font-size: 20px;
+    color: #212121;
 }
