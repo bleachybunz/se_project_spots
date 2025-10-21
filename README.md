@@ -16,5 +16,5 @@ Project Spots is a website meant to make make image sharing easier for users on 
 
 This webpage is deployed to Github Pages.
 
--Deployment Link:
+-Deployment Link: https://bleachybunz.github.io/se_project_spots/
 
