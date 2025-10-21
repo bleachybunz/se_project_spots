@@ -36,4 +36,32 @@
 .card__title {
     font-size: 20px;
     color: #212121;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 420px;
 }
+
+@media screen and (max-width: 627px) {
+   .card {
+    align-items: center;
+    width: 288px;
+    gap: 20px
+   }
+
+   .card__title {
+    font-size: 16px;
+    max-width: 288px;
+   }
+   
+    .card__image {
+    height: 288px;
+    width: 288px;
+   } 
+
+   .card__list {
+    max-width: 288px;
+    max-height: 318px;
+   }
+}
+    
