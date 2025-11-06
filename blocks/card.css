@@ -5,10 +5,11 @@
 
 .card__image {
     height: 413px;
+    margin-bottom: 12px;
     width: 413px;
     object-fit: cover;
     display: block;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .card__content {
@@ -18,8 +19,11 @@
 }
 
 .card__like-btn {
-    background-image: url(../images/Like\ Icon.png);
-    height: 23px;
+    background-image: url(../images/Like-Icon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20px;
     width: 23px;
     border: none;
     background-color: transparent;
@@ -39,7 +43,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    max-width: 420px;
+    max-width: 353px;
 }
 
 @media screen and (max-width: 627px) {
@@ -51,17 +55,12 @@
 
    .card__title {
     font-size: 16px;
-    max-width: 288px;
+    max-width: 235px;
    }
    
     .card__image {
     height: 288px;
     width: 288px;
    } 
-
-   .card__list {
-    max-width: 288px;
-    max-height: 318px;
-   }
 }
     
