@@ -38,6 +38,7 @@
 }
 
 .card__title {
+    margin: 0;
     font-size: 20px;
     color: #212121;
     text-overflow: ellipsis;
