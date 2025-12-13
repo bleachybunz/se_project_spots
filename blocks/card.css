@@ -27,8 +27,6 @@
     width: 23px;
     border: none;
     background-color: transparent;
-    opacity: 40%;
-    background-repeat: no-repeat;
     opacity: 0.4;
     cursor: pointer;
 }
