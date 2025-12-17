@@ -19,7 +19,7 @@
 }
 
 .card__like-btn {
-    background-image: url(../images/Like-Icon.png);
+    background-image: url(../images/Like-Icon.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
